@@ -1,0 +1,19 @@
+package sintaxeVariaveisEFluxo;
+
+public class TestaSomatoria {
+	public static void main(String[] args) {
+		
+		int contador = 0;
+		int total = 0;
+		
+		while(contador <= 10) {	
+			
+			//total = total + contador;
+			total += contador;
+			contador++;
+			System.out.println(total);
+		}
+		//mostra apenas o 55
+		System.out.println(total);
+	}
+}
