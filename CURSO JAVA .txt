@@ -1,0 +1,15 @@
+*********** CURSO JAVA ***********
+
+**** AULA 1 ****
+
+---Variáveis Locais podem ser definidas dentro de um método ou de um construtor e vivem somente dentro do bloco.
+
+---Variáveis de instância (membro) também chamadas de atributo ou variáveis de objeto. 
+
+---Variáveis estáticas (variáveis da classe) podem ser acessadas de qualquer lugar desde que sejam referenciadas através de um objeto, instância ou nome da classe.
+
+---Shadowing: acessa a variável local.
+---Variável de instância usa o "this" para acessar.
+---Variável de instância usa o "Pessoa" para acessar.
+
+
