@@ -13,3 +13,22 @@
 ---Variável de instância usa o "Pessoa" para acessar.
 
 
+**** AULA 2 ****
+
+---Dentro  de um arquivo .java só pode ter uma interface ou tipo ou classe, PÚBLICO e ele sendo público, deve ter o mesmo nome que o arquivo, pra facilitar sua localização.
+
+---Pacotes, importes e tipos são opcionais na estrutura do arquivo. Pacotes servem para separar e organizar as diversas classes que temos em nossos sistemas. Todas as classes pertencem a um pacote, sendo que, caso o pacote não seja explicitamente declarado, a classe fará parte do que chamamos de pacote padrão, ou default package. Todas as classes no default package se enxergam e podem ser utilizadas entre si. Classes no pacote default não podem ser importadas para uso em outros pacotes. Só pode existir um único package definido por arquivo.
+
+---Classe é a forma no Java onde definimos os atributos e comportamentos de um objeto.
+
+---Construtores: A principal diferença entre a declaração de um método e um construtor é que um construtor não tem retorno e possui o mesmo nome da classe. Um construtor pode ter um return vazio.
+
+---Interface pode ter variáveis finais (não podem ter os valores alterados), públicas e estáticas por padrão, ou seja, mesmo sem declarar essas propriedades o java as assume. Já os métodos, são públicos e abstratos por padrão.
+Em java, é possível definir mais de uma classe/interface em um mesmo arquivo java, embora devamos seguir algumas regras:
+
+- Podem ser definidos em qualquer ordem;
+- Se existir alguma classe/interface pública, o nome do arquivo deve ser o mesmo dessa classe/interface;
+- Só pode existir uma classe/interface pública por arquivo;
+- Se não houver nenhuma classe/interface pública, o arquivo pode ter qualquer nome.
+
+**** AULA 3 ****
