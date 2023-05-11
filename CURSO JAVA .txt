@@ -32,3 +32,4 @@ Em java, é possível definir mais de uma classe/interface em um mesmo arquivo j
 - Se não houver nenhuma classe/interface pública, o arquivo pode ter qualquer nome.
 
 **** AULA 3 ****
+---Toda classe que for ser executada na linha de comando deve ser o método main.
