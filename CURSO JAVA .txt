@@ -32,4 +32,21 @@ Em java, é possível definir mais de uma classe/interface em um mesmo arquivo j
 - Se não houver nenhuma classe/interface pública, o arquivo pode ter qualquer nome.
 
 **** AULA 3 ****
----Toda classe que for ser executada na linha de comando deve ser o método main.
+
+---Toda classe que for ser executada na linha de comando deve ser o método main. Classes sem o método main não são classes executáveis e não podem ser usadas como ponto inicial da aplicação.
+
+---O tal método de entrada deve seguir algumas regras para ser executado pela JVM:
+
+-Ser público (public);
+-Ser estático (static);
+-Não ter retorno (void);
+-Ter o nome main;
+-Receber como parâmetro um array ou varargs de String (String[] ou String...).
+
+---Na execução na linha de comando, o nome do pacote faz parte do nome da classe. Ex.: pacote.Classe(certificacao.Teste).
+
+---Um arquivo JAR nada mais é que a pasta de nossas classes no formato ZIP mas com extensão .jar.
+
+**** AULA 4 ****
+
+---O import de uma classe que está dentro de um mesmo pacote, é opcional, mas se estiver em outro pacote o import é obrigatório.
